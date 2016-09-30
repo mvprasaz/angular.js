@@ -160,7 +160,7 @@ string "very". Depending on which button is clicked, the `spice` model is set to
 Things to notice in the example above:
 
 - The `ng-controller` directive is used to (implicitly) create a scope for our template, and the
-scope is augmented (managed) by the `SpicyController` Controller.
+scope is argumented (managed) by the `SpicyController` Controller.
 - `SpicyController` is just a plain JavaScript function. As an (optional) naming convention the name
 starts with capital letter and ends with "Controller".
 - Assigning a property to `$scope` creates or updates the model.
